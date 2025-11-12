@@ -31,19 +31,19 @@ p.fyi {
 	font-size: 10px;
 }
 
-#gen-row1 {
+#gen-row1, #his-row1 {
 	background-color: #ccddff;
 	margin: 10px;
 	border-radius: 10px;
 }
 
-#gen-row2 {
+#gen-row2, #his-row2 {
         background-color: #99bbff;
         margin: 10px;
         border-radius: 10px;
 }
 
-#gen-row3 {
+#gen-row3, #his-row3 {
         background-color: #6699ff;
         margin: 10px;
         border-radius: 10px;
