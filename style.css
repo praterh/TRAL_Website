@@ -3,7 +3,8 @@ ul.nav-bar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #002266;
+  margin-bottom: 10px;
 }
 
 ul.nav-bar li {
