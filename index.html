@@ -1,11 +1,12 @@
 <!DOCTYPE html>
         <head>
                 <title>Ras Muhammad National Park Website</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
                 <link rel="stylesheet" href="style.css?v=2">
                 <script src="index.js" charset="utf-8" defer></script>  
         </head>
         <body>
-                <ul>
+                <ul class = "nav-bar">
                         <li><a href="./index.html">Overview</a></li>
                         <li><a href="./history.html">History</a></li>
                         <li><a href="./purpose.html">Importance</a></li>
@@ -13,34 +14,45 @@
 			<li><a href="./citations.html">Citations</a></li>
                 </ul>
 
-		<h2> Ras Muhammad National Park </h2>
-
-		<div id = "overviewRow1" class = "row1">
-			<div class = "onLeft">
-				<p>General information paragraph</p>
+		<h2>Ras Muhammad National Park</h2>
+		<div class = "container">
+		<div class = "row" id = "gen-row1">
+			<div class="col-md-12">
+                                <h4>General</h4>
+                        </div>
+			<div class = "col-md-6">
+				<p>Ras Muhammad National Park is Egypt's very first national park. It encompasses an area of 480 square kilometers (around 185 square miles), with over half of that being area over water. Known for its coral reefs and diverse marine wildlife, it is a common bucket list location for divers and travelers alike.  
 			</div>
-			<div class = "onRight">
+			<div class = "col-md-6">
 				<p>insert image</p>
 				<p>citation</p>
                         </div>
 		</div>
 		
-		<div id = "overviewRow2" class = "row2">
-			<h4>Location</h4>
-                        <div class = "onLeft">
+		<div class = "row" id = "gen-row2">
+			<div class="col-md-12">
+				<h4>Location</h4>
+			</div>
+                        <div class = "col-md-6">
                                 <p>insert image</p>
 				<p>citation</p>
                         </div>
-                        <div class = "onRight">
-                                <p>bulleted list about location</p>
-                        </div>
+                        <div class = "col-md-6">
+				<ul>
+					<li> Located in Egypt at the southern end of the Sinai Peninsula </li>
+					<li> Bordered by the Gulf of Suez and the Gulf of Aqaba </li>
+					<li> Sports a very dry climate with minimal rainfall </li>
+                        	</ul>
+			</div>
                 </div>
 
-		<div id = "overviewRow3" class = "row3">
-			<h4>Management</h4>
-                        <p>Management paragraph</p>
+		<div class = "row" id = "gen-row3">
+			<div class="col-md-12">
+				<h4>Management</h4>
+                        	<p>Ras Muhammad is managed by the Egyptian Environmental Affairs Agency (EEAA), but specifically by the EEAA's Department of Natural Reserves; this department oversees the management of all Egypt's national parks and protected areas. The EEAA is funded by the Environmental Protection Fund, which was established in 1994.</p>
+			</div>
                 </div>
-
+		</div>
         </body>
 </html>
 
